@@ -13,6 +13,10 @@ from tensorflow.keras.applications.inception_v3 import InceptionV3
 import tensorflow as tf
 import urllib.request
 import opendatasets as od
+from PIL import Image
+import numpy as np
+import tkinter as tk
+from tkinter import filedialog
 ```
 
 ## Dataset
@@ -24,9 +28,27 @@ here is some example of image datasets used: <br/>
 <img src="https://github.com/user-attachments/assets/1adb938d-0537-47ab-8be9-08f6239ff29d" alt="dataset1" width="500">
 <img src="https://github.com/user-attachments/assets/a26be453-88c1-4fe1-8d9f-3b8cb4d482a1" alt="dataset2" width="470">
 
+## Model Architecture
+Implemented transfer learning with weight from InceptionV3.
+- Input
+- InceptionV3 weight (until layer mixed2)
+- CNN (relu)
+- Batch Normalization
+- Maxpooling (2,2)
+- CNN (relu)
+- Batch Normalization
+- Maxpooling (2,2)
+- Flatten
+- Dense Linear (relu)
+- Dropout (0.3)
+- Dense Linear (output layer)
+
 ## Result
 #### Accuracy result <br/>
 ![image](https://github.com/user-attachments/assets/7cb5de56-7963-47d0-8ed0-c82c99ba7bd8)
 
 #### Loss value result <br/>
 ![image](https://github.com/user-attachments/assets/d214f7fc-ebbc-495d-8c13-b48c5a182416)
+
+## Test the Program
+To test the program you can run the app.py file, then choose a rontgent image of a lungs.

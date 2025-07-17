@@ -1,3 +1,15 @@
 
 *.jpeg
 *.zip
+/env
+/env
+/env
+/env/Lib
+/env
+/env
+/env
+/venv
+kaggle.json
+/TEST
+/TRAIN
+model_capstone.h5
