@@ -45,10 +45,10 @@ Implemented transfer learning with weight from InceptionV3.
 
 ## Result
 #### Accuracy result <br/>
-![image](https://github.com/user-attachments/assets/7cb5de56-7963-47d0-8ed0-c82c99ba7bd8)
+<img width="700" height="470" alt="Train   Val Accuracy Graph" src="https://github.com/user-attachments/assets/3cf2eb78-4a45-44eb-971d-f4f33d071dc2" />
 
 #### Loss value result <br/>
-![image](https://github.com/user-attachments/assets/d214f7fc-ebbc-495d-8c13-b48c5a182416)
+<img width="700" height="470" alt="Train   Val Loss Graph" src="https://github.com/user-attachments/assets/58f4e858-5d42-464b-ac07-04ccfe819d31" />
 
 ## Test the Program
 To test the program you can run the app.py file, then choose a rontgent image of a lungs.
