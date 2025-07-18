@@ -21,8 +21,10 @@ from tkinter import filedialog
 
 ## Dataset
 Dataset used in this project is from these sources:
-- pediatric-pneumonia-chest-xray: https://www.kaggle.com/datasets/andrewmvd/pediatric-pneumonia-chest-xray
-- chest-pneumonia-256x256 : https://www.kaggle.com/datasets/thomasdubail/chest-pneumonia-256x256
+- pediatric-pneumonia-chest-xray: <br>
+https://www.kaggle.com/datasets/andrewmvd/pediatric-pneumonia-chest-xray
+- chest-pneumonia-256x256 : <br>
+https://www.kaggle.com/datasets/thomasdubail/chest-pneumonia-256x256
 
 here is some example of image datasets used: <br/>
 <img src="https://github.com/user-attachments/assets/1adb938d-0537-47ab-8be9-08f6239ff29d" alt="dataset1" width="500">
