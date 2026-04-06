@@ -62,6 +62,8 @@ The model was trained on chest X-ray images from the following public Kaggle dat
 
 **Sample images from the dataset:**
 
+| <img src="https://github.com/user-attachments/assets/1adb938d-0537-47ab-8be9-08f6239ff29d" alt="Normal Chest X-Ray" width="300"> | <img src="https://github.com/user-attachments/assets/a26be453-88c1-4fe1-8d9f-3b8cb4d482a1" alt="Pneumonia Chest X-Ray" width="470"> |
+
 <img src="https://github.com/user-attachments/assets/1adb938d-0537-47ab-8be9-08f6239ff29d" alt="Normal Chest X-Ray" width="500">
 <img src="https://github.com/user-attachments/assets/a26be453-88c1-4fe1-8d9f-3b8cb4d482a1" alt="Pneumonia Chest X-Ray" width="470">
 
