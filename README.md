@@ -10,20 +10,6 @@
 
 ---
 
-## Table of Contents
-
-- [Overview](#-overview)
-- [Features](#-features)
-- [Project Structure](#-project-structure)
-- [Dataset](#-dataset)
-- [Model Architecture](#-model-architecture)
-- [Results](#-results)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Contributor](#-contributor)
-
----
-
 ## Overview
 
 PneumoVision classifies chest X-ray images as either **Normal** or **Pneumonia** using a Convolutional Neural Network (CNN) built on top of the pre-trained **InceptionV3** model. The model is trained using transfer learning techniques to achieve high accuracy with a relatively small dataset.
