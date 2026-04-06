@@ -69,22 +69,22 @@ The model uses **Transfer Learning** with InceptionV3 as the base feature extrac
 ```
 Input (150x150x3)
     │
-    ▼
+    v
 InceptionV3 (pre-trained, frozen until layer: mixed2)
     │
-    ▼
+    v
 Conv2D → BatchNormalization → MaxPooling(2,2)
     │
-    ▼
+    v
 Conv2D → BatchNormalization → MaxPooling(2,2)
     │
-    ▼
+    v
 Flatten
     │
-    ▼
+    v
 Dense (ReLU) → Dropout(0.3)
     │
-    ▼
+    v
 Dense (Output — Sigmoid)
 ```
 
