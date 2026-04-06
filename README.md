@@ -60,10 +60,6 @@ The model was trained on chest X-ray images from the following public Kaggle dat
 | Pediatric Pneumonia Chest X-Ray | [andrewmvd/pediatric-pneumonia-chest-xray](https://www.kaggle.com/datasets/andrewmvd/pediatric-pneumonia-chest-xray) |
 | Chest Pneumonia 256x256 | [thomasdubail/chest-pneumonia-256x256](https://www.kaggle.com/datasets/thomasdubail/chest-pneumonia-256x256) |
 
-**Sample images from the dataset:**
-
-| <img src="https://github.com/user-attachments/assets/1adb938d-0537-47ab-8be9-08f6239ff29d" alt="Normal Chest X-Ray"> | <img src="https://github.com/user-attachments/assets/a26be453-88c1-4fe1-8d9f-3b8cb4d482a1" alt="Pneumonia Chest X-Ray"> |
-
 ---
 
 ## Model Architecture
